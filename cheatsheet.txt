@@ -1,0 +1,6 @@
+TAB = AUTOCOMPLETE
+APPEND "?" to command for documentation
+
+import pandas as pd
+
+csvData = pd.read_csv("train.csv", header = 'infer'/None)
