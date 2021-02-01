@@ -1,6 +1,30 @@
 TAB = AUTOCOMPLETE
 APPEND "?" to command for documentation
+======================================================
 
 import pandas as pd
 
 csvData = pd.read_csv("train.csv", header = 'infer'/None)
+	>> if train.csv in a folder, use "data/train.csv"
+
+csvData.head(n)
+csvData.tail(n)
+n = integer
+
+csvData.iloc[7]
+	>> extract a single ROW (data of object 7)
+	>> returns a Series
+
+======================================================
+
+DataFrame is a class
+E.g. csvData[["columnName"]]
+
+Series is a Python-like list
+E.g. csvData.columnName
+     csvData["columnName"]
+
+int64 is a number datatype in numpy
+
+======================================================
+
